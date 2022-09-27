@@ -118,3 +118,20 @@ footer p {
 	color: white;
 	padding: 1em 0;
 }
+
+
+	#nav_menu ul { list-style-type: none; }
+#nav_menu ul li { float: left; }
+#nav_menu ul li a {
+    text-align: center;
+    display: block;
+    width: 100px;
+    padding: 2em 0;      /* padding above and below a
+                            elements */
+    text-decoration: none;
+    background-color: #800000;
+    color: white;
+    font-weight: bold;
+    border-right: 1px solid white; }
+#nav_menu ul li a.lastitem { border-right: none; }
+#nav_menu ul li a.current { color: yellow; }
